@@ -1,0 +1,27 @@
+PODS:
+  - Masonry (1.1.0)
+  - TTImagePickerManager (0.1.0):
+    - TTImagePickerManager/Manager (= 0.1.0)
+  - TTImagePickerManager/Manager (0.1.0):
+    - TTImagePickerManager/Model
+  - TTImagePickerManager/Model (0.1.0)
+
+DEPENDENCIES:
+  - Masonry
+  - TTImagePickerManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  TTImagePickerManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TTImagePickerManager: 6e5a869e4ddd8feb890b02795a69ad3e96873dcd
+
+PODFILE CHECKSUM: 2c9d11e63070bed0913e4d507aab69f40574abed
+
+COCOAPODS: 1.7.5

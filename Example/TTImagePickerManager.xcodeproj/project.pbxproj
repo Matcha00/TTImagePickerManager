@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F22F0C249DD53600AF5CCF /* UIView+TTImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F22F08249DD53600AF5CCF /* UIView+TTImagePicker.m */; };
+		18F22F0D249DD53600AF5CCF /* TTAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F22F09249DD53600AF5CCF /* TTAlbumTableViewCell.m */; };
+		18F22F0E249DD53600AF5CCF /* TTImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F22F0A249DD53600AF5CCF /* TTImagePickerCell.m */; };
+		18F22F13249DD54900AF5CCF /* TTImagePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F22F11249DD54900AF5CCF /* TTImagePickerVC.m */; };
+		18F22F14249DD54900AF5CCF /* TTAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F22F12249DD54900AF5CCF /* TTAlbumVC.m */; };
+		18F22F17249DDE1900AF5CCF /* TTImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18F22F16249DDE1800AF5CCF /* TTImagePicker.bundle */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18F22F06249DD53600AF5CCF /* TTImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImagePickerCell.h; sourceTree = "<group>"; };
+		18F22F07249DD53600AF5CCF /* UIView+TTImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTImagePicker.h"; sourceTree = "<group>"; };
+		18F22F08249DD53600AF5CCF /* UIView+TTImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTImagePicker.m"; sourceTree = "<group>"; };
+		18F22F09249DD53600AF5CCF /* TTAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAlbumTableViewCell.m; sourceTree = "<group>"; };
+		18F22F0A249DD53600AF5CCF /* TTImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImagePickerCell.m; sourceTree = "<group>"; };
+		18F22F0B249DD53600AF5CCF /* TTAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAlbumTableViewCell.h; sourceTree = "<group>"; };
+		18F22F0F249DD54900AF5CCF /* TTAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAlbumVC.h; sourceTree = "<group>"; };
+		18F22F10249DD54900AF5CCF /* TTImagePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImagePickerVC.h; sourceTree = "<group>"; };
+		18F22F11249DD54900AF5CCF /* TTImagePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImagePickerVC.m; sourceTree = "<group>"; };
+		18F22F12249DD54900AF5CCF /* TTAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAlbumVC.m; sourceTree = "<group>"; };
+		18F22F15249DDA1800AF5CCF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18F22F16249DDE1800AF5CCF /* TTImagePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TTImagePicker.bundle; sourceTree = "<group>"; };
 		25FADE470098A9415E332507 /* Pods-TTImagePickerManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTImagePickerManager_Example.release.xcconfig"; path = "Target Support Files/Pods-TTImagePickerManager_Example/Pods-TTImagePickerManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43A7DED9B5DD8945DB618BDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43A7DED9B5DD8945DB618BDC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		45051612288C305287EF5FA8 /* Pods-TTImagePickerManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTImagePickerManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-TTImagePickerManager_Tests/Pods-TTImagePickerManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		47D8FF33D357551CD360697C /* Pods_TTImagePickerManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTImagePickerManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A85E637E531505513B3CE81 /* Pods-TTImagePickerManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTImagePickerManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TTImagePickerManager_Tests/Pods-TTImagePickerManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,9 +82,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776D99E7D6B19768CB548EB7 /* Pods_TTImagePickerManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTImagePickerManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8A919F9148B094804491D27 /* TTImagePickerManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TTImagePickerManager.podspec; path = ../TTImagePickerManager.podspec; sourceTree = "<group>"; };
+		C8A919F9148B094804491D27 /* TTImagePickerManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TTImagePickerManager.podspec; path = ../TTImagePickerManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBC77C217FC1146D43FE14C4 /* Pods-TTImagePickerManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTImagePickerManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-TTImagePickerManager_Example/Pods-TTImagePickerManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EB8042027B7EE21549A85487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB8042027B7EE21549A85487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +121,6 @@
 				5A85E637E531505513B3CE81 /* Pods-TTImagePickerManager_Tests.debug.xcconfig */,
 				45051612288C305287EF5FA8 /* Pods-TTImagePickerManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,12 +161,24 @@
 		6003F593195388D20070C39A /* Example for TTImagePickerManager */ = {
 			isa = PBXGroup;
 			children = (
+				18F22F0F249DD54900AF5CCF /* TTAlbumVC.h */,
+				18F22F16249DDE1800AF5CCF /* TTImagePicker.bundle */,
+				18F22F12249DD54900AF5CCF /* TTAlbumVC.m */,
+				18F22F10249DD54900AF5CCF /* TTImagePickerVC.h */,
+				18F22F11249DD54900AF5CCF /* TTImagePickerVC.m */,
+				18F22F0B249DD53600AF5CCF /* TTAlbumTableViewCell.h */,
+				18F22F09249DD53600AF5CCF /* TTAlbumTableViewCell.m */,
+				18F22F06249DD53600AF5CCF /* TTImagePickerCell.h */,
+				18F22F0A249DD53600AF5CCF /* TTImagePickerCell.m */,
+				18F22F07249DD53600AF5CCF /* UIView+TTImagePicker.h */,
+				18F22F08249DD53600AF5CCF /* UIView+TTImagePicker.m */,
 				6003F59C195388D20070C39A /* TTAppDelegate.h */,
 				6003F59D195388D20070C39A /* TTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TTViewController.h */,
 				6003F5A6195388D20070C39A /* TTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				18F22F15249DDA1800AF5CCF /* PrefixHeader.pch */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -248,6 +277,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = woshicainiaoma;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6SRSWZ22NX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +290,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F22F17249DDE1900AF5CCF /* TTImagePicker.bundle in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -324,10 +358,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TTImagePickerManager_Example/Pods-TTImagePickerManager_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TTImagePickerManager/TTImagePickerManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTImagePickerManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +400,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F22F14249DD54900AF5CCF /* TTAlbumVC.m in Sources */,
 				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
+				18F22F0D249DD53600AF5CCF /* TTAlbumTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
+				18F22F0E249DD53600AF5CCF /* TTImagePickerCell.m in Sources */,
+				18F22F13249DD54900AF5CCF /* TTImagePickerVC.m in Sources */,
+				18F22F0C249DD53600AF5CCF /* UIView+TTImagePicker.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,8 +535,9 @@
 			baseConfigurationReference = CBC77C217FC1146D43FE14C4 /* Pods-TTImagePickerManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SRSWZ22NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TTImagePickerManager/TTImagePickerManager-Prefix.pch";
+				GCC_PREFIX_HEADER = TTImagePickerManager/PrefixHeader.pch;
 				INFOPLIST_FILE = "TTImagePickerManager/TTImagePickerManager-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -510,8 +552,9 @@
 			baseConfigurationReference = 25FADE470098A9415E332507 /* Pods-TTImagePickerManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SRSWZ22NX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TTImagePickerManager/TTImagePickerManager-Prefix.pch";
+				GCC_PREFIX_HEADER = TTImagePickerManager/PrefixHeader.pch;
 				INFOPLIST_FILE = "TTImagePickerManager/TTImagePickerManager-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";

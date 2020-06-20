@@ -1,0 +1,6 @@
+framework module TTImagePickerManager {
+  umbrella header "TTImagePickerManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

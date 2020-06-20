@@ -1,0 +1,39 @@
+{
+  "name": "TTImagePickerManager",
+  "version": "0.1.0",
+  "summary": "相册获取基础管理类",
+  "description": "'相册获取基础管理类'",
+  "homepage": "https://github.com/woshicainiaoma/TTImagePickerManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "woshicainiaoma": "chmatcha00@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/woshicainiaoma/TTImagePickerManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TTImagePickerManager/Classes/**/*",
+  "frameworks": "Photos",
+  "default_subspecs": "Manager",
+  "subspecs": [
+    {
+      "name": "Manager",
+      "source_files": "TTImagePickerManager/Classes/Manager/*.{h,m}",
+      "dependencies": {
+        "TTImagePickerManager/Model": [
+
+        ]
+      }
+    },
+    {
+      "name": "Model",
+      "source_files": "TTImagePickerManager/Classes/Model/*.{h,m}"
+    }
+  ]
+}
