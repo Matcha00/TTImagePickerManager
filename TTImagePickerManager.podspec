@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TTImagePickerManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TTImagePickerManager.'
+  s.summary          = '相册获取基础管理类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       '相册获取基础管理类'
                        DESC
 
   s.homepage         = 'https://github.com/woshicainiaoma/TTImagePickerManager'
@@ -37,6 +37,21 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'Photos'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.ios.deployment_target = '9.0'
+  s.default_subspec = 'Manager'
+  
+  # 图片资源管理类
+  s.subspec 'Manager' do |manager|
+    manager.source_files = 'TTImagePickerManager/Classes/Manager/*.{h,m}'
+    manager.dependency 'TTImagePickerManager/Model'
+  end
+  
+  # 图片资源模型数据
+  s.subspec 'Model' do |model|
+    model.source_files = 'TTImagePickerManager/Classes/Model/*.{h,m}'
+  end
+  
 end
